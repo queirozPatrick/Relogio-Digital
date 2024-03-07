@@ -8,8 +8,9 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(120deg, #3be2ffd8, #256affd8);
+    background: linear-gradient(120deg, #ff7b00, #0953f3d8);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -46,4 +47,21 @@ body {
 
 .relogio span.tempo {
     font-size: 10px;
+}
+.dataDeHoje {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 500px;
+}
+#dataAtual {
+    font-family: 'Open Sans';
+    font-size: 19px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, .9);    border-radius: 7px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+
 }
